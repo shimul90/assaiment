@@ -11,8 +11,9 @@ body{
 .orange{
 	color: orange;
 }
-
-
+h1{
+	font-size: 50px;
+}
 h2{
 	text-align: center;
 	margin-bottom: 40px;
@@ -20,7 +21,6 @@ h2{
 	font-family: 'Times New Roman', Times, serif;
 
 }
-
 .all-container{
 	display: flex;
 	margin-bottom: 100px;
@@ -39,28 +39,6 @@ h2{
 	height:auto;
 	position: relative;
 	
-}
-.hearder_part h1{
-	font-size: 60px;
-	color: #333333;
-	font-family:Arial, Helvetica, sans-serif;
-	line-height: 1.4;
-	padding-left: 1%;
-	position: relative;
-	opacity: 0.9;
-}
-.hearder_part h1 span.line{
-	width: 5px;
-    height: 77%;
-    background: #FF5959;
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    transform: translateY(-50%); /* sorry! I was no Idea */
-    border-radius: 50px;
-}
-.colorize{
-	color: #FB9400;
 }
 #maind{
 	border-left: 7px solid;
